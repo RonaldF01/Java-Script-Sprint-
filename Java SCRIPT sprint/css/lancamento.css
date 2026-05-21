@@ -93,3 +93,39 @@ iframe {
     margin-right: auto !important;
     border-radius: 10px;
 }
+
+button {
+    background-color: #1351d8;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 14px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+button:hover {
+    background-color: #0d3ea8;
+
+    transform: scale(1.08);
+
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.3);
+}
+
+
+button:active {
+    transform: scale(0.96);
+}
