@@ -110,7 +110,7 @@ div#carousel:hover .foto-carro {
     padding: 16px 12px;
     cursor: pointer;
     z-index: 10;                     /* Força os botões a ficarem na frente da imagem */
-    opacity: 0;                      /* Deixa invisível por padrão */
+    opacity: 1;                      /* Deixa invisível por padrão */
     transition: background 0.2s ease, opacity 0.3s ease; /* Transição suave de aparecimento */
 }
 
