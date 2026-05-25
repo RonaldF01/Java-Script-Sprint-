@@ -41,12 +41,37 @@ h2 {
     font-weight: 800;
 }
 
+textarea.mensagem {
+     height: 120px;
+     resize: none;
+     padding-top: 10px;
+     font-family: Arial, sans-serif;;
+}
+
 
 button {
     width: 200px;
-    height: 40px;
+    height: 45px;
     margin-right: 8px;
     float: right;
+
+
+    background-color: rgb(23, 23, 204);
+    color: white;
+    border: none;
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: #0d3ea5;
+    transform: scale(1.05);
 }
 
 .titulo {
